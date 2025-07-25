@@ -1,0 +1,279 @@
+.nav {
+  background: no-repeat center center;
+  background-size: cover;
+  padding: 10px 20px;
+    top:0;
+    left:0;
+     right:0;
+   background-color: hsl(7deg 55% 94% / 23%);
+   box-shadow: var(--box-shadow);
+   z-index: 1000;
+   position: absolute;
+}
+
+.nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+color: #e4e0e0;
+
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+font-weight: bold;
+font-family: 'Inter';
+font-weight: 700;
+font-size: large;
+
+}
+
+.search-icon {
+  color: white;
+  font-size: 20px;
+}
+.bg-image {
+   width: 100%;
+height: 500px;
+position:relative;
+}
+
+  
+
+
+
+.bg-image img {
+  width: 100%;
+  height: 500px;
+  opacity: 1;
+   object-fit: cover;
+ 
+}
+
+#bg_image_content {
+  position: absolute;
+  left: 55px;
+  top: 220px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-align: left;
+width: 620px;
+height: 129px;
+}
+
+#bg_image_content button {
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #0c0c0c;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+width: 244px;
+height: 50px;
+background: #FFFFFF;
+border-radius: 100px;
+}
+
+
+
+.body {
+  display: flex;
+
+  align-items: center;
+  padding: 30px 20px;
+  background:  #ffe6f0 50%;
+}
+
+.body div {
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+}
+
+
+.body_image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.body p {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #333;
+}
+
+.flavours {
+  background: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.flavour_header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #5c1a1b;
+}
+
+.flavour_cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+#bg_image_content button:hover ,.card:hover{
+  background-color: #f8bbd0;
+  transform: translateY(-5px);}
+
+
+.card {
+  background: rgb(255 230 240 / 42%);
+  padding: 20px;
+  width: 317px;
+  transition: transform 0.3s ease;
+  border-radius: 9px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+  align-items: center;
+}
+
+.card_img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 9px;
+}
+
+
+.card h3 {
+width: 313px;
+height: 35px;
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 30px;
+line-height: 48px;
+color: #000000;
+}
+
+.card p {
+  margin: 5px 0;
+width: 309px;
+height: 58px;
+font-family: 'Poppins';
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+
+.price {
+
+font-family: 'Poppins';
+font-weight: 800;
+font-size: 30px;
+color: #000000;
+}
+
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  margin-top: 10px;
+}
+
+
+.order_btn {
+  width: 200px; 
+  height: 40px; 
+  background: #191818;
+  border-radius: 9px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+}
+
+.order_btn:hover {
+  background-color: #444;
+}
+ 
+.footer {
+  background-color: #47433b41;
+  color: #111111;
+  padding: 20px 40px;
+  text-align: center;
+  font-family: 'Poppins';
+  margin-top: 40px;
+  border-top: 3px solid #ff69b4; 
+}
+
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: black;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #131212;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #b32020;
+}
