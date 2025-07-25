@@ -14,6 +14,15 @@ The main goal of this project was to:
 You can view the original Figma design here:  
 👉 [Figma Design Link](https://www.figma.com/design/T37OmQqZ2oeYNW3TR5TUT7/icecream-shop?node-id=1-2&t=1GWR9ZYs7PA3N2eA-1://www.figma.com/file/your-figma-link)
 
+## 🖼️ Screenshots
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/48ae1beb-518d-475d-8e7f-a87c021cd655" width="30%" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/119a5b91-230e-43ce-a562-1eb0844c090a" width="30%" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/e7e5f1ed-7aec-4269-a506-2e17a49efec4" width="30%" />
+</p>
+
+
+
 ## 📁 Folder Structure
 
 ```bash
