@@ -16,9 +16,9 @@ You can view the original Figma design here:
 
 ## 🖼️ Screenshots
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/48ae1beb-518d-475d-8e7f-a87c021cd655" width="30%" style="margin-right: 10px;" />
-  <img src="https://github.com/user-attachments/assets/119a5b91-230e-43ce-a562-1eb0844c090a" width="30%" style="margin-right: 10px;" />
-  <img src="https://github.com/user-attachments/assets/e7e5f1ed-7aec-4269-a506-2e17a49efec4" width="30%" />
+  <img src="https://github.com/user-attachments/assets/48ae1beb-518d-475d-8e7f-a87c021cd655" width="300px" height="180px" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/119a5b91-230e-43ce-a562-1eb0844c090a" width="300px" height="180px" style="margin-right: 10px;" />
+  <img src="https://github.com/user-attachments/assets/e7e5f1ed-7aec-4269-a506-2e17a49efec4" width="300px" height="180px" />
 </p>
 
 
